@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Main Page</title>
+    <style>
+      body {
+        background-color: #1a1a1a;
+        height: 97vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      header {
+        color: #fff;
+      }
+      h1 {
+        color: #fff;
+        &:hover {
+          color: rgb(243, 186, 42);
+        }
+      }
+      .button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+      }
+      button {
+        font-size: medium;
+        padding: 17px 30px;
+        margin: 0 20px;
+        border-radius: 5px;
+        &:hover {
+          background-color: rgb(243, 186, 42);
+          cursor: pointer;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Hello, Welcome to the Website</h1>
+      <div class="button">
+        <button
+          onclick="window.location.href='http://127.0.0.1:5500/signup.html';"
+        >
+          Sign Up
+        </button>
+        <button
+          onclick="window.location.href='http://127.0.0.1:5500/signin.html';"
+        >
+          Sign In
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
