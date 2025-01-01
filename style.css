@@ -29,6 +29,6 @@ button {
     cursor: pointer;
   }
 }
-.footer p:hover{
+p:hover{
     color:red
 }
