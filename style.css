@@ -29,6 +29,10 @@ button {
     cursor: pointer;
   }
 }
-p:hover{
-    color:red
+p{
+    color:#fff;
+    text-align: center;
+    &:hover{
+      color:red;
+    }
 }
