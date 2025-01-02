@@ -1,70 +1,42 @@
-/* Reset and Body Styles */
 body {
   background-color: #1a1a1a;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column; /* Ensures a vertical layout */
-  min-height: 100vh; /* Makes the body height cover the viewport */
-}
-
-/* Container for Centered Content */
-.container {
-  flex: 1; /* Ensures the container takes up remaining space */
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
-/* Card Styles */
 .card {
   background-color: #fff;
   border-radius: 8px;
   padding: 30px;
   width: 300px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-
-/* Heading Styles */
 h2 {
   color: #1a1a1a;
   text-align: center;
   margin-bottom: 20px;
 }
-
-/* Form Styles */
 form {
   display: flex;
   flex-direction: column;
 }
-
-/* Input Styles */
 input {
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 5px;
   border: 1px solid black;
 }
-
-/* Button Styles */
 button {
   background-color: cornflowerblue;
   color: #fff;
   font-size: medium;
   padding: 8px;
   border-radius: 7px;
-  border: none;
-}
-
-button:hover {
-  background-color: rgb(23, 58, 124);
-  cursor: pointer;
-}
-
-/* Footer Styles */
-footer {
-  background-color: gold;
-  text-align: center;
-  padding: 10px 0;
+  &:hover {
+    background-color: rgb(23, 58, 124);
+    cursor: pointer;
+  }
 }
