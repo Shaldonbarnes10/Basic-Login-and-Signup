@@ -1,0 +1,42 @@
+body {
+  background-color: #1a1a1a;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  width: 300px;
+}
+h2 {
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+button {
+  background-color: cornflowerblue;
+  color: #fff;
+  font-size: medium;
+  padding: 8px;
+  border-radius: 7px;
+  &:hover {
+    background-color: rgb(23, 58, 124);
+    cursor: pointer;
+  }
+}
